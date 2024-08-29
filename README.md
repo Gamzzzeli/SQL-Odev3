@@ -18,7 +18,7 @@ WHERE country   LIKE '%_____n';
 
 ``` ruby
 SELECT * FROM film
-WHERE title ILIKE '%t%t%t%t';
+WHERE title ILIKE '%t%t%t%t%';
 ```
 
 ## 4. film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
